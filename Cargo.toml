@@ -1,6 +1,10 @@
 [package]
 name = "sysmgr"
 version = "0.1.0"
+authors = ["Taxrosdev <taxrosdev@mailbox.org>"]
 edition = "2024"
 
 [dependencies]
+
+[profile.release]
+opt-level=3
